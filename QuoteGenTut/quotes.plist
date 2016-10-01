@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   quotes.plist
+   QuoteGenTut
+
+   Created by User on 9/30/16.
+   Copyright (c) 2016 User. All rights reserved.
+ 
+   Btw, this file is in xml if you didn't know!
+-->
+
+<plist version="1.0">
+    <!-- Note that each <dict> represents an element of the array -->
+    <array>
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Frankly, my dear, I don't give a damn.</string>
+            <key>source</key>  <string>Gone With the Wind</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Here's looking at you, kid.</string>
+            <key>source</key>  <string>Casablanca</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>There's no place like home.</string>
+            <key>source</key>  <string>The Wizard of Oz</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Play it again, Sam.</string>
+            <key>source</key>  <string>Casablanca</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Elementary, my dear Watson.</string>
+            <key>source</key>  <string>Sherlock Holmes</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Go ahead, make my day.</string>
+            <key>source</key>  <string>Dirty Harry</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>May the Force be with you.</string>
+            <key>source</key>  <string>Star Wars</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Hasta la vista, baby.</string>
+            <key>source</key>  <string>Terminator 2: Judgement Day</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.</string>
+            <key>source</key>  <string>Harry Potter and the Sorcerer's Stone</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>I solemnly swear that I am up to no good.</string>
+            <key>source</key>  <string>Harry Potter and the Prisoner of Azkaban</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>You like pain? Try wearing a corset.</string>
+            <key>source</key>  <string>Pirates of the Caribbean</string>
+        </dict>
+        
+        <!-- The following quotes are made by me at this point -->
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>rankly, my dear, I don't give a damn.</string>
+            <key>source</key>  <string>GONE WITH THE WIND</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>I'm gonna make him an offer he can't refuse.</string>
+            <key>source</key>  <string>THE GODFATHER</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.</string>
+            <key>source</key>  <string>ON THE WATERFRONT</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>Here's looking at you, kid.</string>
+            <key>source</key>  <string>CASABLANCA</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>Go ahead, make my day.</string>
+            <key>source</key>  <string>SUDDEN IMPACT</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>Fasten your seatbelts. It's going to be a bumpy night.</string>
+            <key>source</key>  <string>ALL ABOUT EVE</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>What we've got here is failure to communicate.</string>
+            <key>source</key>  <string>COOL HAND LUKE</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>I love the smell of napalm in the morning.</string>
+            <key>source</key>  <string>APOCALYPSE NOW</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>Love means never having to say you're sorry.</string>
+            <key>source</key>  <string>LOVE STORY</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>The stuff that dreams are made of.</string>
+            <key>source</key>  <string>THE MALTESE FALCON</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>They call me Mister Tibbs!</string>
+            <key>source</key>  <string>IN THE HEAT OF THE NIGHT</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>extra</string>
+            <key>quote</key>  <string>ade it, Ma! Top of the world!</string>
+            <key>source</key>  <string>WHITE HEAT</string>
+        </dict>
+    </array>
+</plist>

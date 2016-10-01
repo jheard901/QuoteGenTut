@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="73U-nH-zEi">
+                                <color key="backgroundColor" red="0.65223911109999999" green="0.62079395079999999" blue="0.94306282720000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Quote of the Day:
+
+Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFF-Zh-5HY" userLabel="Button_Quote">
+                                <color key="backgroundColor" red="0.5" green="0.36426356541281146" blue="0.30955487189787856" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="nnj-E3-Niy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="36"/>
+                                <state key="normal" title="Quote">
+                                    <color key="titleColor" red="0.65223911106757892" green="0.62079395082674893" blue="0.94306282724450263" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="quote_btn_touch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kVc-WO-rrp"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="XKa-fT-YKV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="D0N-Sr-EUP"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Classic"/>
+                                    <segment title="Modern"/>
+                                    <segment title="Extra"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="73U-nH-zEi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="2XN-EL-v8q"/>
+                            <constraint firstItem="XKa-fT-YKV" firstAttribute="centerX" secondItem="73U-nH-zEi" secondAttribute="centerX" id="4Hm-Z0-YHh"/>
+                            <constraint firstItem="XKa-fT-YKV" firstAttribute="top" secondItem="iFF-Zh-5HY" secondAttribute="bottom" constant="27" id="Mwi-6b-qoX"/>
+                            <constraint firstItem="iFF-Zh-5HY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="94" id="VeR-og-LZD"/>
+                            <constraint firstItem="iFF-Zh-5HY" firstAttribute="top" secondItem="73U-nH-zEi" secondAttribute="bottom" constant="49" id="WQM-qx-ZZn"/>
+                            <constraint firstItem="73U-nH-zEi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="cj8-uS-3gf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XKa-fT-YKV" secondAttribute="bottom" constant="159" id="fJU-rN-ZBR"/>
+                            <constraint firstItem="XKa-fT-YKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kMN-uN-5nr"/>
+                            <constraint firstItem="iFF-Zh-5HY" firstAttribute="centerX" secondItem="73U-nH-zEi" secondAttribute="centerX" id="wVc-8G-hLH"/>
+                            <constraint firstItem="XKa-fT-YKV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="37" id="z6C-rc-Aut"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="quote_opt" destination="XKa-fT-YKV" id="6EC-cd-dVQ"/>
+                        <outlet property="quote_text" destination="73U-nH-zEi" id="iQP-s1-AnW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
